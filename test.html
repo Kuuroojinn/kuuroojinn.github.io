@@ -223,7 +223,6 @@ button:hover {
   position: absolute;
   width: 100%;
   backface-visibility: hidden;
-  frontface-visibility: hidden;
   border-radius: 16px;
   padding: 16px;
   background: rgba(255,255,255,0.12);
@@ -1168,7 +1167,7 @@ function drawCard() {
           <button style="margin-top:10px;" onclick="flipCard()">Voir la réponse</button>
         </div>
         <div class="flip-back">
-          <div><strong>Réponse :</strong> ${card.answer}</div>
+          <div style="margin-top:6px;"><strong>Réponse :</strong> ${card.answer}</div>
           <button style="margin-top:10px;" onclick="flipCard()">Retourner</button>
         </div>
       </div>
