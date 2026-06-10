@@ -1,2 +1,2 @@
 # kuuroojinn.github.io
-[Collec](kuuroojinn.github.io/Collec)
+[Collec](https://kuuroojinn.github.io/Collec/)
